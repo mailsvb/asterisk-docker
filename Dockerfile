@@ -40,3 +40,5 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get update && \
     apt-get install -y libnewt0.52 libncurses5 openssl libxml2 uuid-runtime libjansson4 libspeex1 libsrtp2-1 sqlite3 libopus0 libgsm1 libspeexdsp1 \
         libresample1 libvorbis0a libvorbisenc2 libvorbisfile3 libopusfile0 xmlstarlet libcurl4 libedit2 liburiparser1
+
+ADD config /etc/asterisk/
