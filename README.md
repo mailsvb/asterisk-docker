@@ -11,4 +11,4 @@
 ###### custom config
 If you want to use your custom asterisk configuration, simply mount it when starting the container
 
-`docker run -dit --network=host -v /path/to/custom/config::/etc/asterisk/ mailsvb/asterisk:latest /usr/sbin/asterisk -fTvvvvv`
+`docker run -dit --network=host -v /path/to/custom/config:/etc/asterisk/ mailsvb/asterisk:latest /usr/sbin/asterisk -fTvvvvv`
