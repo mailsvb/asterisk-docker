@@ -1,6 +1,6 @@
-FROM debian:11-slim
+FROM debian:12-slim
 MAINTAINER mailsvb <mailsvb@gmail.com>
-ENV ASTERISK_VERSION 19-current
+ENV ASTERISK_VERSION 20-current
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y pkg-config make gcc g++ curl libcurl4-openssl-dev bzip2 patch \
